@@ -1,0 +1,52 @@
+# =========================
+# GNS3 PROJECT FILES
+# =========================
+*.gns3project~
+*.gns3project.bak
+*.gns3project.lock
+
+# autosave / backup
+*.autosave
+
+# =========================
+# GNS3 RUNTIME DIRECTORIES
+# =========================
+project-files/cache/
+project-files/dynamips/
+project-files/qemu/
+project-files/docker/
+project-files/vmware/
+project-files/iou/
+
+# optional (unele proiecte le generează local)
+tmp/
+temp/
+
+# =========================
+# LOGS / DEBUG
+# =========================
+*.log
+logs/
+
+# =========================
+# PACKET CAPTURES
+# =========================
+*.pcap
+*.pcapng
+
+# =========================
+# IMAGES / VIRTUAL APPLIANCES (IMPORTANT)
+# =========================
+# NU versiona imagini de router/switch/emulator
+*.qcow2
+*.img
+*.iso
+*.vmdk
+*.bin
+
+# =========================
+# SYSTEM / EDITOR TRASH
+# =========================
+*~
+.DS_Store
+Thumbs.db
